@@ -31,10 +31,13 @@ document.getElementById('scrollToContact').addEventListener('click', function(e)
 });
 
 
-document.getElementById('scrollToAbout').addEventListener('click', function(e) {
-    e.preventDefault(); // Impede o comportamento padrão do link
-    document.getElementById('about').scrollIntoView({
-        behavior: 'smooth', // Para rolar suavemente
-        block: 'start' // Para alinhar o topo da seção
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("scrollToAbout").addEventListener("click", function(e) {
+        e.preventDefault();
+        document.getElementById("about").scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
     });
 });
+

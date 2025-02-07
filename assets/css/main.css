@@ -609,42 +609,6 @@ button[class ^= navbar]:hover{
     -o-object-fit: cover;
        object-fit: cover;
 }
-.contact-right{
-    padding: 5rem 4rem;
-}
-.contact-right form{
-    margin-top: 5rem;
-}
-.form-element .form-control{
-    width: 100%;
-    background-color: #3373dd;
-    border: none;
-    outline: 0;
-    padding: 1rem 1.6rem;
-    margin-bottom: 1.6rem;
-    color: var(--light-color);
-}
-.form-element .form-control::-webkit-input-placeholder{
-    color: var(--light-color);
-}
-.form-element .form-control::-moz-placeholder{
-    color: var(--light-color);
-}
-.form-element .form-control:-ms-input-placeholder{
-    color: var(--light-color);
-}
-.form-element .form-control::-ms-input-placeholder{
-    color: var(--light-color);
-}
-.form-element .form-control::placeholder{
-    color: var(--light-color);
-}
-.btn-submit{
-    margin-top: 4rem;
-}
-.btn-submit i{
-    margin-right: 2rem;
-}
 
 /* footer */
 .footer{
@@ -921,6 +885,7 @@ button[class ^= navbar]:hover{
     .nav-item{
         margin: 0;
         margin-left: 3.5rem;
+       
     }
     .nav-link{
         color: var(--light-color);
