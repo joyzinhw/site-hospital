@@ -230,7 +230,9 @@ button[class ^= navbar]:hover{
 }
 .nav-item{
     margin: 1.4rem 0;
-
+    width: 10.0rem;
+    align-items: center;
+    justify-items: center;
 }
 .nav-link{
     opacity: 0.8;
@@ -241,13 +243,13 @@ button[class ^= navbar]:hover{
     transition: var(--transition);
     display: inline-block;
 }
-.nav-link:hover{
+/* .nav-link:hover{
     opacity: 1;
     color: var(--dark-color);
     -webkit-transform: translateX(10px);
         -ms-transform: translateX(10px);
             transform: translateX(10px);
-}
+} */
 .search-icon{
     display: block;
     width: 27px;
@@ -880,20 +882,44 @@ button[class ^= navbar]:hover{
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        align-items: center;
+        justify-items: center;
 
     }
     .nav-item{
         margin: 0;
         margin-left: 3.5rem;
-       
+        align-items: center;
+        justify-items: center;
+        border-radius: 60rem;
     }
+
+
+    .nav-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1rem; /* Ajusta o espaçamento interno */
+        text-align: center;
+    }
+    
+    .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white; /* Garante que o texto fique branco */
+        font-weight: bold; /* Deixa o texto mais legível */
+        height: 100%; /* Garante que o texto ocupe toda a altura */
+        width: 100%; /* Evita desalinhamento */
+    }
+    
     .nav-link{
         color: var(--light-color);
         opacity: 1;
         font-weight: 500;
         position: relative;
     }
-    .nav-link::after{
+    /* /* .nav-link::after{
         content: "";
         position: absolute;
         top: 100%;
@@ -906,16 +932,16 @@ button[class ^= navbar]:hover{
         -o-transition: var(--transition);
         transition: var(--transition);
     }
-    .nav-link:hover{
+    /* .nav-link:hover{
         -webkit-transform: none;
             -ms-transform: none;
                 transform: none;
         color: var(--light-color);
-    }
+    } */ */
     .nav-link:hover::after{
         opacity: 1;
         width: 100%;
-    }
+    } */
     .search-bar{
         margin-left: 5.5rem;
     }
