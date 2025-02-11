@@ -230,7 +230,7 @@ button[class ^= navbar]:hover{
 }
 .nav-item{
     margin: 1.4rem 0;
-    width: 10.0rem;
+    width: 12.0rem;
     align-items: center;
     justify-items: center;
 }
