@@ -3,7 +3,7 @@
 /* variables */
 :root{
     --fros-blue-color: #1359a3;
-    --light-blue-color: #14a3bb;
+    --light-blue-color: #0f879c;
     --dark-color: #202020;
     --light-gray: #dedede;
     --dark-gray: #a1a1a0;
@@ -49,8 +49,10 @@ a{
 .bg-white{
     background-color: var(--light-color);
 }
+/* Ajuste no contraste do texto azul:
+   Utiliza um tom de azul mais escuro para garantir melhor legibilidade sobre fundo branco */
 .text-blue{
-    color: var(--fros-blue-color);
+    color: #0d6efd; /* azul mais escuro */
 }
 .text-white{
     color: var(--light-color);
@@ -73,17 +75,31 @@ a{
     -o-transition: var(--transition);
     transition: var(--transition);
 }
+
+/* Botões com ajustes de contraste */
+/* Botão branco: sem alterações necessárias, pois já possui contraste adequado */
 .btn-white{
     color: var(--fros-blue-color);
 }
+
+/* Botão light-blue: foi alterado para um fundo azul mais escuro e texto branco para melhorar o contraste */
 .btn-light-blue{
-    background-color: var(--light-blue-color);
-    color: var(--light-color);
+    background-color: #0d6efd; /* tom de azul mais escuro */
+    color: #ffffff; /* texto em branco para melhor contraste */
 }
+
+/* Botão azul: já possui fundo azul e texto branco */
 .btn-blue{
     background-color: var(--fros-blue-color);
     color: var(--light-color);
 }
+
+/* Exemplo de ajuste para elementos com fundo branco e texto branco (se houver) */
+.bg-white .text-white {
+    color: var(--dark-color); /* texto escuro para melhor contraste sobre fundo branco */
+}
+
+
 .btn-group{
     display: -webkit-box;
     display: -ms-flexbox;
