@@ -1,5 +1,4 @@
 {
-  "short_name": "Anizinha_Luz",
   "name": "Hospital Anizinha Luz",
   "icons": [
     {
@@ -23,7 +22,7 @@
     "utilities"
   ],
   "start_url": "/",
-  "background_color": "#1359a3",
+  "background_color": "#fffffff",
   "display": "standalone",
   "scope": "/",
   "theme_color": "#3f70a4",
