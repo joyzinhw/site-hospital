@@ -1,0 +1,30 @@
+{
+  "short_name": "Anizinha_Luz",
+  "name": "Hospital Anizinha Luz",
+  "icons": [
+    {
+      "src": "icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512x512.png",
+      "type": "images/png",
+      "sizes": "512x512"
+    }
+  ],
+  "categories": [
+    "business",
+    "health",
+    "kids",
+    "lifestyle",
+    "medical",
+    "productivity",
+    "utilities"
+  ],
+  "start_url": "/",
+  "background_color": "#1359a3",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3f70a4"
+}
