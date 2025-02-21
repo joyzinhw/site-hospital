@@ -49,10 +49,9 @@ a{
 .bg-white{
     background-color: var(--light-color);
 }
-/* Ajuste no contraste do texto azul:
-   Utiliza um tom de azul mais escuro para garantir melhor legibilidade sobre fundo branco */
+
 .text-blue{
-    color: #0d6efd; /* azul mais escuro */
+    color: #0d6efd; 
 }
 .text-white{
     color: var(--light-color);
@@ -75,30 +74,26 @@ a{
     -o-transition: var(--transition);
     transition: var(--transition);
 }
-
-/* Botões com ajustes de contraste */
-/* Botão branco: sem alterações necessárias, pois já possui contraste adequado */
 .btn-white{
     color: var(--fros-blue-color);
 }
 
-/* Botão light-blue: foi alterado para um fundo azul mais escuro e texto branco para melhorar o contraste */
+
 .btn-light-blue {
-    background-color: #0d6efd; /* Azul mais escuro */
-    color: #ffffff; /* Texto branco para melhor contraste */
+    background-color: #0d6efd; 
+    color: #ffffff; 
+
 }
 
 
-/* Botão azul: já possui fundo azul e texto branco */
 .btn-blue{
     background-color: var(--fros-blue-color);
     color: var(--light-color);
 }
 
-/* Exemplo de ajuste para elementos com fundo branco e texto branco (se houver) */
+
 .bg-white .text-white {
-    color: var(--dark-color); /* texto escuro para melhor contraste sobre fundo branco */
-}
+    color: var(--dark-color); 
 
 
 .btn-group{
@@ -260,13 +255,7 @@ button[class ^= navbar]:hover{
     transition: var(--transition);
     display: inline-block;
 }
-/* .nav-link:hover{
-    opacity: 1;
-    color: var(--dark-color);
-    -webkit-transform: translateX(10px);
-        -ms-transform: translateX(10px);
-            transform: translateX(10px);
-} */
+
 .search-icon{
     display: block;
     width: 27px;
@@ -957,7 +946,7 @@ button[class ^= navbar]:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0.5rem 1rem; /* Ajusta o espaçamento interno */
+        padding: 0.5rem 1rem; 
         text-align: center;
     }
     
@@ -965,10 +954,10 @@ button[class ^= navbar]:hover{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: white; /* Garante que o texto fique branco */
-        font-weight: bold; /* Deixa o texto mais legível */
-        height: 100%; /* Garante que o texto ocupe toda a altura */
-        width: 100%; /* Evita desalinhamento */
+        color: white; 
+        font-weight: bold;
+        height: 100%; 
+        width: 100%; 
     }
     
     .nav-link{
@@ -977,25 +966,7 @@ button[class ^= navbar]:hover{
         font-weight: 500;
         position: relative;
     }
-    /* /* .nav-link::after{
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 0;
-        height: 2px;
-        width: 0;
-        background-color: var(--light-color);
-        opacity: 0;
-        -webkit-transition: var(--transition);
-        -o-transition: var(--transition);
-        transition: var(--transition);
-    }
-    /* .nav-link:hover{
-        -webkit-transform: none;
-            -ms-transform: none;
-                transform: none;
-        color: var(--light-color);
-    } */ */
+
     .nav-link:hover::after{
         opacity: 1;
         width: 100%;
