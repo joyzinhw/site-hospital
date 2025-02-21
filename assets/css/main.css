@@ -445,25 +445,66 @@ button[class ^= navbar]:hover{
     height: 2px;
     background-color: var(--light-gray);
 }
-.services-inner{
-    padding: 6rem 0;
+
+.services .section-head .text-lg {
+    color: var(--dark-gray);
+    margin-top: -2rem;
 }
-.service-item{
-    padding: 3rem;
-    margin-bottom: 3rem;
+.services .section-head img {
+    margin: 3.7rem auto;
 }
-.service-item:last-child{
-    margin-bottom: 0;
-}
-.service-item .icon img{
-    width: 80px;
+.line-art {
+    max-width: 240px;
     margin: auto;
 }
-.service-item h3{
-    margin: 5rem 0;
+.line-art img {
+    width: 30px;
+}
+.line-art div {
+    width: 100px;
+    height: 2px;
+    background-color: var(--light-gray);
+}
+
+.services-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 6rem 0;
+}
+
+.service-item {
+    flex: 1 1 calc(25% - 2rem);
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item .icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.service-item .icon img {
+    width: 100%;
+    height: auto;
+}
+
+.service-item h3 {
+    margin: 1rem 0;
     opacity: 0.7;
 }
 
+.service-item .text {
+    margin: 0.5rem 0;
+}
 /* banner two section */
 .banner-two{
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 80, 213, 0.9)), to(rgba(0, 90, 213, 0.85))), url('../images/banner-two-bg.png') top/cover no-repeat;
