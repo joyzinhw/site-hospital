@@ -83,10 +83,11 @@ a{
 }
 
 /* Botão light-blue: foi alterado para um fundo azul mais escuro e texto branco para melhorar o contraste */
-.btn-light-blue{
-    background-color: #0d6efd; /* tom de azul mais escuro */
-    color: #ffffff; /* texto em branco para melhor contraste */
+.btn-light-blue {
+    background-color: #0d6efd; /* Azul mais escuro */
+    color: #ffffff; /* Texto branco para melhor contraste */
 }
+
 
 /* Botão azul: já possui fundo azul e texto branco */
 .btn-blue{
@@ -163,7 +164,7 @@ h1, h2, h3{
     font-weight: 500;
 }
 .text-sm{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .py{
     padding: 10.9rem 0;
