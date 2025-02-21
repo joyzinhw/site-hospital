@@ -17,6 +17,15 @@
     <!-- custom css -->
     <link rel = "stylesheet" href = "/assets/css/main.css">
     <link rel="manifest" href="/manifest.json">
+    <link rel="pwabuilder" href="/pwabuilder-sw.js">
+
+
+    <script>
+        if (typeof navigator.serviceWorker !== 'undefined') {
+          navigator.serviceWorker.register("/pwabuilder-sw.js")
+        }
+
+    </script>
 </head>
 <body>
     
